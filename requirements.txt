@@ -1,0 +1,9 @@
+pydantic
+langchain
+langchain-openai
+langchain-groq
+langchain-core
+langchain-community
+openai
+python-dotenv
+defusedxml
