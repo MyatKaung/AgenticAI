@@ -45,13 +45,32 @@ Located in `/2-langchain_basics/2.2-DataTransformer/`
   - JSON splitting
   - Chunk size and overlap configuration
 
+#### 2.3 Embeddings
+Located in `/2-langchain_basics/2.3-Embeddings/`
+- `2.3.1-embeddings.ipynb`: Basic embedding concepts and implementation
+- `2.3.2-hugginface.ipynb`: HuggingFace embeddings integration
+
+#### 2.4 Vector Database
+Located in `/2-langchain_basics/2.4-VectorDatabase/`
+- `FAISS/`: FAISS vector store implementation
+  - `code.ipynb`: FAISS setup and querying
+- `Pinecone/`: Pinecone vector database integration
+  - `code.ipynb`: Pinecone implementation
+- `assignment.ipynb`: RAG implementation tasks
+- `check.ipynb`: Vector store validation and testing
+
 ## Sample Data Files
 - `records.xml`: Example XML data
 - `speech.txt`: Sample text for processing
 - `syllabus.pdf`: PDF document for demonstration
+- `Principles-of-Data-Science-WEB.pdf`: Data science reference material
+- `llama2.pdf`: LLama2 model documentation
 
 ## Environment Setup
 - `.env`: Environment variables configuration
+  - QDRANT_API_KEY
+  - QDRANT_URL
+  - Other API configurations
 - `requirements.txt`: Project dependencies
 
 ## Getting Started
@@ -66,3 +85,6 @@ Located in `/2-langchain_basics/2.2-DataTransformer/`
 - Document processing and text splitting
 - Various input/output formats (JSON, XML)
 - LangSmith for LLM development
+- Embeddings and vector databases
+- Retrieval Augmented Generation (RAG)
+- FAISS and Pinecone vector stores
