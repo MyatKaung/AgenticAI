@@ -1,2 +1,14 @@
+# Ignore Python virtual environment
 venv/
+
+# Ignore environment variable files
 .env
+
+# Ignore specific PDFs
+**/Principles-of-Data-Science-WEB.pdf
+**/llama2.pdf
+
+# Ignore FAISS index folder or file (quote or escape special characters)
+FAISS/today's class faiss index/
+FAISS/today\'s class faiss index/
+"FAISS/today's class faiss index/"
