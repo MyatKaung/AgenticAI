@@ -32,3 +32,6 @@ youtube_search
 langgraph
 chromadb
 langchain-chroma
+reportlab 
+python-docx
+xmltodict
